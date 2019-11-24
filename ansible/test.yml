@@ -1,0 +1,6 @@
+---
+- name: "Testplaybook für localhost-Test"
+  hosts: localhost
+  tasks:
+  - name: "Ping-Test"
+    ping:
