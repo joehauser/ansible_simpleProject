@@ -9,3 +9,9 @@ Template für ein einfaches Ansible-Projekt
 * Die Ansible-Skripte liegen im Verzeichnis ``ansible``. 
 * Src-Files können in ``src`` abgelegt werden.
 
+# Test
+```
+cd ./ansible
+ansible-playbook -i inventory.yml test.yml
+```
+
